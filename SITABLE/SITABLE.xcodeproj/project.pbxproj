@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEEBDE1207B0643006DDADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE0207B0643006DDADB /* AppDelegate.m */; };
+		1FEEBDE4207B0643006DDADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE3207B0643006DDADB /* ViewController.m */; };
+		1FEEBDE7207B0643006DDADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE5207B0643006DDADB /* Main.storyboard */; };
+		1FEEBDE9207B0644006DDADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE8207B0644006DDADB /* Assets.xcassets */; };
+		1FEEBDEC207B0644006DDADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEBDEA207B0644006DDADB /* LaunchScreen.storyboard */; };
+		1FEEBDEF207B0644006DDADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDEE207B0644006DDADB /* main.m */; };
+		1FEEBDF9207B0644006DDADB /* SITABLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDF8207B0644006DDADB /* SITABLETests.m */; };
+		1FEEBE04207B0644006DDADB /* SITABLEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBE03207B0644006DDADB /* SITABLEUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEEBDF5207B0644006DDADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEEBDD4207B0643006DDADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEEBDDB207B0643006DDADB;
+			remoteInfo = SITABLE;
+		};
+		1FEEBE00207B0644006DDADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEEBDD4207B0643006DDADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEEBDDB207B0643006DDADB;
+			remoteInfo = SITABLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEEBDDC207B0643006DDADB /* SITABLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITABLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEEBDDF207B0643006DDADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FEEBDE0207B0643006DDADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FEEBDE2207B0643006DDADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FEEBDE3207B0643006DDADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FEEBDE6207B0643006DDADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEEBDE8207B0644006DDADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEEBDEB207B0644006DDADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FEEBDED207B0644006DDADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEEBDEE207B0644006DDADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FEEBDF4207B0644006DDADB /* SITABLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SITABLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEEBDF8207B0644006DDADB /* SITABLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SITABLETests.m; sourceTree = "<group>"; };
+		1FEEBDFA207B0644006DDADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEEBDFF207B0644006DDADB /* SITABLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SITABLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEEBE03207B0644006DDADB /* SITABLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SITABLEUITests.m; sourceTree = "<group>"; };
+		1FEEBE05207B0644006DDADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEEBDD9207B0643006DDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEEBDF1207B0644006DDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEEBDFC207B0644006DDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEEBDD3207B0643006DDADB = {
+			isa = PBXGroup;
+			children = (
+				1FEEBDDE207B0643006DDADB /* SITABLE */,
+				1FEEBDF7207B0644006DDADB /* SITABLETests */,
+				1FEEBE02207B0644006DDADB /* SITABLEUITests */,
+				1FEEBDDD207B0643006DDADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEEBDDD207B0643006DDADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEEBDDC207B0643006DDADB /* SITABLE.app */,
+				1FEEBDF4207B0644006DDADB /* SITABLETests.xctest */,
+				1FEEBDFF207B0644006DDADB /* SITABLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEEBDDE207B0643006DDADB /* SITABLE */ = {
+			isa = PBXGroup;
+			children = (
+				1FEEBDDF207B0643006DDADB /* AppDelegate.h */,
+				1FEEBDE0207B0643006DDADB /* AppDelegate.m */,
+				1FEEBDE2207B0643006DDADB /* ViewController.h */,
+				1FEEBDE3207B0643006DDADB /* ViewController.m */,
+				1FEEBDE5207B0643006DDADB /* Main.storyboard */,
+				1FEEBDE8207B0644006DDADB /* Assets.xcassets */,
+				1FEEBDEA207B0644006DDADB /* LaunchScreen.storyboard */,
+				1FEEBDED207B0644006DDADB /* Info.plist */,
+				1FEEBDEE207B0644006DDADB /* main.m */,
+			);
+			path = SITABLE;
+			sourceTree = "<group>";
+		};
+		1FEEBDF7207B0644006DDADB /* SITABLETests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEEBDF8207B0644006DDADB /* SITABLETests.m */,
+				1FEEBDFA207B0644006DDADB /* Info.plist */,
+			);
+			path = SITABLETests;
+			sourceTree = "<group>";
+		};
+		1FEEBE02207B0644006DDADB /* SITABLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEEBE03207B0644006DDADB /* SITABLEUITests.m */,
+				1FEEBE05207B0644006DDADB /* Info.plist */,
+			);
+			path = SITABLEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEEBDDB207B0643006DDADB /* SITABLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEEBE08207B0644006DDADB /* Build configuration list for PBXNativeTarget "SITABLE" */;
+			buildPhases = (
+				1FEEBDD8207B0643006DDADB /* Sources */,
+				1FEEBDD9207B0643006DDADB /* Frameworks */,
+				1FEEBDDA207B0643006DDADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SITABLE;
+			productName = SITABLE;
+			productReference = 1FEEBDDC207B0643006DDADB /* SITABLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEEBDF3207B0644006DDADB /* SITABLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEEBE0B207B0644006DDADB /* Build configuration list for PBXNativeTarget "SITABLETests" */;
+			buildPhases = (
+				1FEEBDF0207B0644006DDADB /* Sources */,
+				1FEEBDF1207B0644006DDADB /* Frameworks */,
+				1FEEBDF2207B0644006DDADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEEBDF6207B0644006DDADB /* PBXTargetDependency */,
+			);
+			name = SITABLETests;
+			productName = SITABLETests;
+			productReference = 1FEEBDF4207B0644006DDADB /* SITABLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FEEBDFE207B0644006DDADB /* SITABLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEEBE0E207B0644006DDADB /* Build configuration list for PBXNativeTarget "SITABLEUITests" */;
+			buildPhases = (
+				1FEEBDFB207B0644006DDADB /* Sources */,
+				1FEEBDFC207B0644006DDADB /* Frameworks */,
+				1FEEBDFD207B0644006DDADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEEBE01207B0644006DDADB /* PBXTargetDependency */,
+			);
+			name = SITABLEUITests;
+			productName = SITABLEUITests;
+			productReference = 1FEEBDFF207B0644006DDADB /* SITABLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEEBDD4207B0643006DDADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sita;
+				TargetAttributes = {
+					1FEEBDDB207B0643006DDADB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1FEEBDF3207B0644006DDADB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1FEEBDDB207B0643006DDADB;
+					};
+					1FEEBDFE207B0644006DDADB = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1FEEBDDB207B0643006DDADB;
+					};
+				};
+			};
+			buildConfigurationList = 1FEEBDD7207B0643006DDADB /* Build configuration list for PBXProject "SITABLE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEEBDD3207B0643006DDADB;
+			productRefGroup = 1FEEBDDD207B0643006DDADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEEBDDB207B0643006DDADB /* SITABLE */,
+				1FEEBDF3207B0644006DDADB /* SITABLETests */,
+				1FEEBDFE207B0644006DDADB /* SITABLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEEBDDA207B0643006DDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEEBDEC207B0644006DDADB /* LaunchScreen.storyboard in Resources */,
+				1FEEBDE9207B0644006DDADB /* Assets.xcassets in Resources */,
+				1FEEBDE7207B0643006DDADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEEBDF2207B0644006DDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEEBDFD207B0644006DDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEEBDD8207B0643006DDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEEBDE4207B0643006DDADB /* ViewController.m in Sources */,
+				1FEEBDEF207B0644006DDADB /* main.m in Sources */,
+				1FEEBDE1207B0643006DDADB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEEBDF0207B0644006DDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEEBDF9207B0644006DDADB /* SITABLETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEEBDFB207B0644006DDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEEBE04207B0644006DDADB /* SITABLEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEEBDF6207B0644006DDADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEEBDDB207B0643006DDADB /* SITABLE */;
+			targetProxy = 1FEEBDF5207B0644006DDADB /* PBXContainerItemProxy */;
+		};
+		1FEEBE01207B0644006DDADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEEBDDB207B0643006DDADB /* SITABLE */;
+			targetProxy = 1FEEBE00207B0644006DDADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FEEBDE5207B0643006DDADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEEBDE6207B0643006DDADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FEEBDEA207B0644006DDADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEEBDEB207B0644006DDADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEEBE06207B0644006DDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FEEBE07207B0644006DDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEEBE09207B0644006DDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSVLTDGENZ;
+				INFOPLIST_FILE = SITABLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FEEBE0A207B0644006DDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSVLTDGENZ;
+				INFOPLIST_FILE = SITABLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FEEBE0C207B0644006DDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 984R259DPB;
+				INFOPLIST_FILE = SITABLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SITABLE.app/SITABLE";
+			};
+			name = Debug;
+		};
+		1FEEBE0D207B0644006DDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 984R259DPB;
+				INFOPLIST_FILE = SITABLETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SITABLE.app/SITABLE";
+			};
+			name = Release;
+		};
+		1FEEBE0F207B0644006DDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 984R259DPB;
+				INFOPLIST_FILE = SITABLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SITABLE;
+			};
+			name = Debug;
+		};
+		1FEEBE10207B0644006DDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 984R259DPB;
+				INFOPLIST_FILE = SITABLEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SITABLE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEEBDD7207B0643006DDADB /* Build configuration list for PBXProject "SITABLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEEBE06207B0644006DDADB /* Debug */,
+				1FEEBE07207B0644006DDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEEBE08207B0644006DDADB /* Build configuration list for PBXNativeTarget "SITABLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEEBE09207B0644006DDADB /* Debug */,
+				1FEEBE0A207B0644006DDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEEBE0B207B0644006DDADB /* Build configuration list for PBXNativeTarget "SITABLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEEBE0C207B0644006DDADB /* Debug */,
+				1FEEBE0D207B0644006DDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEEBE0E207B0644006DDADB /* Build configuration list for PBXNativeTarget "SITABLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEEBE0F207B0644006DDADB /* Debug */,
+				1FEEBE10207B0644006DDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEEBDD4207B0643006DDADB /* Project object */;
+}

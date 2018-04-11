@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SITABLE"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "BLE Tools."
   s.description  = <<-DESC
                     The tool used to connect the central control device is convenient for fast integration

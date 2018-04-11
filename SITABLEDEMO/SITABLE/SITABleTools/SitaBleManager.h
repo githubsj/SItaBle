@@ -67,6 +67,6 @@ typedef void (^FailedConnetedBleBlock)(NSString *controlId);
 @property(nonatomic,assign)CBCentralManagerState bleState;//蓝牙模块状态
 +(instancetype)shareInstence; //单利方法
 -(void)initBleSuccess:(InitBleSuccessBlock)success failedInit:(InitBleFailedBlock)failed; //初始化系统蓝牙,状态发生变化会从这里回调
--(void)scanPeripherals:(ScanPeripheralsBlock)scanPeripherals; //获取蓝牙列表,并且按蓝牙强弱顺序排序,信号强的在上面,注意需要在initBleSuccess成功后调用
+-(void)scanPeripherals:(ScanPeripheralsBlock)scanPeripherals; //获取蓝牙列表,并且按蓝牙强弱顺序排序,信号强的在上面
 -(void)connectPeripheralWithControlId:(NSString *)controlId successConnetBlock:(ConnectWithControlIdBlock)successConnect failedConnet:(FailedConnetedBleBlock)failedConnect;  //按照思塔中控号连接指定设备
 @end

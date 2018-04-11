@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F4AEE63207CC43900227065 /* sitaBle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4AEE60207CC43900227065 /* sitaBle.a */; };
+		1F01FD1F207E061E00AF6C3A /* libSitaBleManagerReleaseAll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F01FD1D207E061E00AF6C3A /* libSitaBleManagerReleaseAll.a */; };
+		1F01FD20207E061E00AF6C3A /* libSitaBleManagerDebugAll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F01FD1E207E061E00AF6C3A /* libSitaBleManagerDebugAll.a */; };
 		1FEEBDE1207B0643006DDADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE0207B0643006DDADB /* AppDelegate.m */; };
 		1FEEBDE4207B0643006DDADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE3207B0643006DDADB /* ViewController.m */; };
 		1FEEBDE7207B0643006DDADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE5207B0643006DDADB /* Main.storyboard */; };
@@ -37,7 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1F01FCD7207DA4C900AF6C3A /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		1F4AEE60207CC43900227065 /* sitaBle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = sitaBle.a; sourceTree = "<group>"; };
+		1F01FD1D207E061E00AF6C3A /* libSitaBleManagerReleaseAll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSitaBleManagerReleaseAll.a; sourceTree = "<group>"; };
+		1F01FD1E207E061E00AF6C3A /* libSitaBleManagerDebugAll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSitaBleManagerDebugAll.a; sourceTree = "<group>"; };
 		1F4AEE61207CC43900227065 /* SitaBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitaBleManager.h; sourceTree = "<group>"; };
 		1F4AEE62207CC43900227065 /* SitaBlePerObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitaBlePerObj.h; sourceTree = "<group>"; };
 		1FEEBDDC207B0643006DDADB /* SITABLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITABLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4AEE63207CC43900227065 /* sitaBle.a in Frameworks */,
+				1F01FD20207E061E00AF6C3A /* libSitaBleManagerDebugAll.a in Frameworks */,
+				1F01FD1F207E061E00AF6C3A /* libSitaBleManagerReleaseAll.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +90,8 @@
 		1F4AEE5F207CC43900227065 /* SITABleTools */ = {
 			isa = PBXGroup;
 			children = (
-				1F4AEE60207CC43900227065 /* sitaBle.a */,
+				1F01FD1E207E061E00AF6C3A /* libSitaBleManagerDebugAll.a */,
+				1F01FD1D207E061E00AF6C3A /* libSitaBleManagerReleaseAll.a */,
 				1F4AEE61207CC43900227065 /* SitaBleManager.h */,
 				1F4AEE62207CC43900227065 /* SitaBlePerObj.h */,
 			);

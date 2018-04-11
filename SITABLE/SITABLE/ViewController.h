@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "SitaBleManager.h"
+#import "Macro.h"
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITableView *baseTableView;
+@property(nonatomic,strong)NSMutableArray *devicesArr;
 
 @end
 

@@ -16,7 +16,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [_window makeKeyAndVisible];
+    
+    //初始化蓝牙模块
+    SitaBleManager *bleManager = [SitaBleManager shareInstence];
+    [bleManager initBleSuccess:^(NSString *initSuccess) {
+        NSLog(@"%@",initSuccess);
+        self.initBleSccessBlock(initSuccess);
+    } failedInit:^(NSString *initFailed) {
+        NSLog(@"%@",initFailed);
+    }];
+    
+    _window.backgroundColor = [UIColor whiteColor];
+    ViewController *sitaBleVc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"mainVc"];
+    UINavigationController *rootNc = [[UINavigationController alloc] initWithRootViewController:sitaBleVc];
+    UINavigationBar.appearance.translucent = NO;
+    _window.rootViewController = rootNc;
     return YES;
 }
 

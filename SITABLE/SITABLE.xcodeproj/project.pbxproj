@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4AEE63207CC43900227065 /* sitaBle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4AEE60207CC43900227065 /* sitaBle.a */; };
 		1FEEBDE1207B0643006DDADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE0207B0643006DDADB /* AppDelegate.m */; };
 		1FEEBDE4207B0643006DDADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE3207B0643006DDADB /* ViewController.m */; };
 		1FEEBDE7207B0643006DDADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEEBDE5207B0643006DDADB /* Main.storyboard */; };
@@ -35,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F01FCD7207DA4C900AF6C3A /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		1F4AEE60207CC43900227065 /* sitaBle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = sitaBle.a; sourceTree = "<group>"; };
+		1F4AEE61207CC43900227065 /* SitaBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitaBleManager.h; sourceTree = "<group>"; };
+		1F4AEE62207CC43900227065 /* SitaBlePerObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitaBlePerObj.h; sourceTree = "<group>"; };
 		1FEEBDDC207B0643006DDADB /* SITABLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITABLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEEBDDF207B0643006DDADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FEEBDE0207B0643006DDADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4AEE63207CC43900227065 /* sitaBle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4AEE5F207CC43900227065 /* SITABleTools */ = {
+			isa = PBXGroup;
+			children = (
+				1F4AEE60207CC43900227065 /* sitaBle.a */,
+				1F4AEE61207CC43900227065 /* SitaBleManager.h */,
+				1F4AEE62207CC43900227065 /* SitaBlePerObj.h */,
+			);
+			path = SITABleTools;
+			sourceTree = "<group>";
+		};
 		1FEEBDD3207B0643006DDADB = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +117,12 @@
 		1FEEBDDE207B0643006DDADB /* SITABLE */ = {
 			isa = PBXGroup;
 			children = (
+				1F4AEE5F207CC43900227065 /* SITABleTools */,
 				1FEEBDDF207B0643006DDADB /* AppDelegate.h */,
 				1FEEBDE0207B0643006DDADB /* AppDelegate.m */,
 				1FEEBDE2207B0643006DDADB /* ViewController.h */,
 				1FEEBDE3207B0643006DDADB /* ViewController.m */,
+				1F01FCD7207DA4C900AF6C3A /* Macro.h */,
 				1FEEBDE5207B0643006DDADB /* Main.storyboard */,
 				1FEEBDE8207B0644006DDADB /* Assets.xcassets */,
 				1FEEBDEA207B0644006DDADB /* LaunchScreen.storyboard */,
@@ -370,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -441,6 +459,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SITABLE/SITABleTools",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +480,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SITABLE/SITABleTools",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sita.SITABLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
